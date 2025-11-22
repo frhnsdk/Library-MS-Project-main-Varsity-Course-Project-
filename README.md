@@ -24,7 +24,7 @@ A desktop application for managing library books, borrowing, and returns, built 
 1. **Clone the repository**  
 	```
 	git clone <repo-url>
-	cd Library-MS-Project-main
+	cd "Library-MS-Project-main (Varsity Course Project)"
 	```
 
 2. **Install dependencies**  
@@ -91,11 +91,12 @@ A desktop application for managing library books, borrowing, and returns, built 
 - You cannot delete a book if it is currently borrowed.
 - All operations are performed via the graphical interface.
 
-# Customization
+## Customization & File Structure
 
-- Colors and fonts can be changed in `customs.py`.
-- Database credentials are set in `credentials.py`.
+- Main application logic: `main.py`
+- UI colors and fonts: `customs.py`
+- Database credentials: `credentials.py`
 
 ## Author
 
-Developed by Farhan Sadik and varsity team mates
+Developed by Farhan Sadik and varsity teammates
